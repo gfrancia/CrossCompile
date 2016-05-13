@@ -21,11 +21,13 @@ $ make ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-b
 ```
 Por ultimo compilamos el kernel, para utilizar 4 nucleos se añade -j4 al make.
 
-`$ make -j4 ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-`
+```bash
+$ make -j4 ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-
+```
 
 [[img-compilada]]
 .Imagen Compilada
-image::imagen_compilada.png[300,200]
+image::~/Documents/kernel/tarea_1/imagen_compilada.png[300,200]
 
 
 
