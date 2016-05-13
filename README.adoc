@@ -27,7 +27,7 @@ $ make -j4 ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/a
 
 [[img-compilada]]
 .Imagen Compilada
-image::~/Documents/kernel/tarea_1/imagen_compilada.png[300,200,align="center"]
+image::~/Documents/kernel/tarea_1/imagen_compilacion.png[300,200,align="center"]
 
 
 
