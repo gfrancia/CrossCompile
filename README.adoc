@@ -2,7 +2,7 @@
 
 == Compilar el kernel de linux ==
 
-*Autor: Gerardo Francia Fonseca
+* Autor: Gerardo Francia Fonseca *
 
 Para poder hacer la compilación cruzada se utilizó el toolchain gcc-linaro. Para obtenerlo se bajo de git utilizando este comando:
 
