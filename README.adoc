@@ -1,0 +1,33 @@
+= Tarea 1
+Compilar el kernel de linux
+
+Autor: Gerardo Francia Fonseca
+
+Se utilizó el toolchain gcc-linaro (gcc-linaro-arm-linux-gnueabihf-raspbian-x64) que se obtuvo del git de raspberrypi. 
+https://github.com/raspberrypi/tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
