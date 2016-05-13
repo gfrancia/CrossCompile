@@ -2,7 +2,7 @@
 
 **Autor: Gerardo Francia Fonseca**
 
-Para poder hacer la compilación cruzada se utilizó el toolchain gcc-linaro. Para obtenerlo se bajo de git utilizando este comando:
+Para poder hacer la compilación cruzada se utilizó el toolchain gcc-linaro. Para obtenerlo se bajo de git-hub utilizando este comando:
 
 `$ git clone https://github.com/raspberrypi/tools`
 
