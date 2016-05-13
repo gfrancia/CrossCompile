@@ -12,13 +12,20 @@ Se prosiguio a bajar el kernel.
 
 `$ git clone --depth=1 https://github.com/raspberrypi/linux`
 
-Dentro de la carpeta linux definimos unas variables de compilacion.
+Dentro de la carpeta linux definimos unas variables de compilación.
 
 ```bash
-cd linux`
-KERNEL=kernel17`
-make ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-
+$ cd linux
+$ KERNEL=kernel17
+$ make ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-
 ```
+Por ultimo compilamos el kernel, para utilizar 4 nucleos se añade -j4 al make.
+
+`$ make -j4 ARCH=arm CROSS_COMPILE=/home/gfrancia/Documents/rasptoolchain/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-`
+
+[[img-compilada]]
+.Imagen Compilada
+image::imagen_compilada.png[300,200]
 
 
 
